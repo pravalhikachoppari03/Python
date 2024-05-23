@@ -1,0 +1,17 @@
+1) Write a function in Python to find the maximum of three numbers.
+a = 5
+b = 6
+c = 8
+print(max(a, b, c)
+
+2)Create a function that takes a list of numbers as input and returns the sum of all the elements.
+
+3)Write a function to check if a given number is even or odd.
+
+Develop a function that takes a list of words as input and returns the longest word.
+Implement a function to check if a given year is a leap year or not.
+Create a function that takes a string as input and returns the number of vowels in it.
+Write a function to reverse a given list.
+Develop a function to calculate the area of a circle given its radius.
+Implement a function to convert a temperature from Celsius to Fahrenheit.
+Write a function that takes a list of integers as input and returns the product of all the elements.
