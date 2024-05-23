@@ -1,9 +1,9 @@
 1) Whata are the build-in data types in Pythion?
 Data types in python are
-int
-float
-bool
-dict
+-int
+-float
+-bool
+-dict
 
 2) Difference between list and tuples in python?
 Lists :
