@@ -1,0 +1,31 @@
+1)Rules for Python variables
+- A variable name must start with a letter or the underscore character
+-A variable name cannot start with a number
+-A variable name can only contain alphanumeric characters and underscores(A-Z, 0-9 and _)
+Variables names are case-sensitive(age,AGE and Age are three different variables)
+A variable name cannot be any of the Python keywords.
+
+2)Declaration and Initialization of Variables
+-Declaration of a variable in a computer programming language is a statement used to specify the variable name and its data type.
+-Declaration tells the compiler about the existence of an entity in the program and its location. When you declare a variable, you should also initialize it.
+
+-Initialization is the process of assigning a value to the Variable. Every programming language has its own method of initializing the variable.
+-If the value is not assigned to the Variable, then the process is only called a Declaration.
+
+3)Redeclaring variables in Python
+In Python, you can redeclare a variable by assigning a new value. This is a fundamental operation in Python.
+
+4)Python Assign Values to Multiple Variables 
+a,b,c ="Black"
+print(a)
+print(b)
+print(c)
+
+5)Assigning different values to multiple variables
+p,q,r = 10,20,30
+print(p)
+print(q)
+print(r)
+
+
+
