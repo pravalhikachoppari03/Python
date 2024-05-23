@@ -1,0 +1,85 @@
+1) Whata are the build-in data types in Pythion?
+Data types in python are
+int
+float
+bool
+dict
+
+2) Difference between list and tuples in python?
+Lists :
+- It is Mutable.
+-Consumes more memory.
+-Iteration is Slower and Time consuming.
+- Many built-in methods are available.
+
+Tuples :
+- It is Immutable.
+-Consumes less memory.
+- Iteration is Faster.
+- Doesnt not have many built-in methods. 
+3)How can you convert string to an integer in python?
+a_str = "15"
+a_int = int(a_str)
+print(a_int)
+
+4)How do you check the data type of a variable in Python?
+-The simplest way to check the data type of an object in Python is to use the built-in type() function. 
+-This function returns the data type of the given object.
+a=20
+print(type(a))
+b=[1,2,3]
+print(type(b))
+c=1.2
+print(type(c))
+d="Good" print(type(d)) 
+
+5) Explain the concept of mutable and immutable data types in Python.
+Mutable objects are those that allow you to change their value or data in place without affecting the object’s identity. 
+In contrast, immutable objects don’t allow this kind of operation. You’ll just have the option of creating new objects of the same type with different values
+
+6)How can you create a dictionary in Python?
+In Python, a dictionary can be created by placing a sequence of elements within curly {} braces, separated by a ‘comma’.
+The dictionary holds pairs of values, one being the Key and the other corresponding pair element being its Key:value.
+Values in a dictionary can be of any data type and can be duplicated, whereas keys can’t be repeated and must be immutable.
+
+7) What is the purpose of the id() function in Python?
+The python id() function is used to return a unique identification value of the object stored in the memory.
+8) How do you remove an element from a list in Python?
+The remove() method removes the specified element from the set. 
+Normally there are three ways to remove elements from from a list in python
+i. The Remove() Method
+ii. The pop() Method
+iii.Using del operator
+iv. The Clear() Method
+
+Ex:
+Seasons = ['Summer','Winter','Rainy']
+Seasons.remove('Winter')
+print(Seasons)
+
+9)What is the purpose of the len() function in Python?
+The len() function in Python is used to quickly determine the length or the number of items in a acollection, such as string, tuple, list, dictionary, or any other object.
+It returns an integer representing the length of the given object.
+
+10)How do you check if a variable is of a certain data type in Python?
+
+11)What is a set in Python? How is it different from a list?
+Set :
+-Set is mutable.
+-It is unordered collection of items.List :
+-List is mutable.
+It is ordered collection of items.
+
+12)How can you convert a list to a tuple in Python?
+We can convert a list into a tuple using tuple(), using tuple(list_name).
+ex:
+lista = [1,8,9,15]
+print(lista)
+tuplea = tuple(lista)
+print(tuplea) 13)How can you convert a float to an integer in Python?
+Number = 15.2
+print("Before conversion")
+print(Number)
+Number = int(Number)
+print("After conversion")
+print(Number)
