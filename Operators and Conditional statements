@@ -1,0 +1,104 @@
+1) Write a Python program to calculate the area of a rectangle using the length and width provided by the user.
+length = int(input("enter length value: "))
+width = int(input("enter width value: "))
+area = length*width
+print(area)
+
+2)Write a Python program to check if a number entered by the user is even or odd.
+p = int(input("enter a number: "))
+if p % 2 == 0:
+    print(p,"is Even Number")
+else:
+    print(p, "is Odd Number")
+
+3)Write a Python program to swap the values of two variables without using a temporary variable.
+x = "Thank you"
+y = "Welcome"
+x,y = y,x
+print(x,y)
+
+a = 10
+b = 5
+a = a+ b    //a = 15 b =5
+b = a- b    //a=15 b =10
+a = a - b   //a = 5 b = 10
+print(a,b)
+
+4) Write a Python program to calculate the factorial of a number entered by the user.
+n = int (input ("Enter a number: "))
+factorial = 1
+if n >= 1:
+    for i in range (1, n+1):
+        factorial=factorial *i
+print("Factorial of the given number is: ", factorial)
+
+5)Write a Python program to check if a year entered by the user is a leap year or not.
+year = int(input("Enter year: "))
+if year % 4 ==0:
+    print(year, "is leap year")
+else:
+        print(year, "is not a leap year")
+
+6)Write a Python program to concatenate two strings entered by the user.
+One = int(input("enter a number: "))
+Two = int(input("enter a number: "))
+Total = (One + Two)
+print("The Output is: ", +Total)
+
+7)Write a Python program to find the maximum of three numbers entered by the user.
+a = 1
+b = 50
+c = 10
+print(max(a,b,c))
+
+8)Write a Python program to convert temperature from Celsius to Fahrenheit or vice versa based on user input.
+
+9)Write a Python program to check if a character entered by the user is a vowel, consonant, or neither using conditional statements.
+alphabet = input("Enter a letter: ")
+if alphabet in ('a','e','i','o','u','A','E','I','O','U'):
+    print(alphabet," is a vowel.")
+else:
+    print(alphabet,"is a consonant.")
+
+10)Write a Python program to determine the type of triangle based on the lengths of its sides (equilateral, isosceles, or scalene).
+
+x = int(input("enter the value of x: "))
+y = int(input("enter the value of y: "))
+z = int(input("enter the value of z: "))
+if x == y == z:
+   print("Equilateral triangle") 
+  else:
+      if x==y or y==z or x==z:
+       print("Isosceles triangle")
+       else:
+    print("Scalene triangle")
+
+11)Write a Python program to determine the roots of a quadratic equation entered by the user using conditional statements.
+
+12)Write a Python program to calculate the electricity bill for a user based on the units consumed using conditional statements (consider different slab rates).
+
+
+13)Write a Python program to determine the grade of a student based on their percentage score (A for 90% or above, B for 80% to 89%, etc.).
+sub1=int(input("Enter marks of the first subject: "))
+sub2=int(input("Enter marks of the second subject: "))
+sub3=int(input("Enter marks of the third subject: "))
+sub4=int(input("Enter marks of the fourth subject: "))
+sub5=int(input("Enter marks of the fifth subject: "))
+avg=(sub1+sub2+sub3+sub4+sub4)/5
+if(avg>=90):
+    print("Grade: A")
+elif(avg>=80&avg<89):
+    print("Grade: B")
+elif(avg>=70&avg<79):
+    print("Grade: C")
+elif(avg>=60&avg<69):
+    print("Grade: D")
+else:
+    print("Grade: F")
+
+14)Write a Python program to determine the eligibility of a candidate for voting based on their age (18 years or older).
+age = int(input("Enter age : "))
+if age >= 18:
+    print("You are Eligible for Voting")
+else:
+    print("You are Not Eligible for Voting")
